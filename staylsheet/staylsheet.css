@@ -1,5 +1,10 @@
 .{
     margin: 0;
     padding: 0;
+}
+#box{
+    width: 1024;
+    height: 800px;
     background-color: darkmagenta;
+    opacity: 0.35;
 }
