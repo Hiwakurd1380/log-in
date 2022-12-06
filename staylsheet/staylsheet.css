@@ -5,6 +5,13 @@
 #box{
     width: 1024;
     height: 800px;
+    background-color: rgb(77, 15, 77);
+    opacity: 0.60;
+}
+#secondbox{
+    width: 512px;
+    height: 400px;
     background-color: darkmagenta;
-    opacity: 0.35;
+    opacity: 0.75;
+    
 }
