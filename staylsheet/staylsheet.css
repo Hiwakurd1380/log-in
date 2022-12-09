@@ -3,15 +3,80 @@
     padding: 0;
 }
 #box{
-    width: 1024;
-    height: 800px;
-    background-color: rgb(77, 15, 77);
-    opacity: 0.60;
+    background-image:url(../imag/fabian-albert--yePUylDPJQ-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1024px;   
+    opacity: 0.8;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
-#secondbox{
-    width: 512px;
-    height: 400px;
-    background-color: darkmagenta;
-    opacity: 0.75;
+#second{
+    z-index: 2;
+    background: linear-gradient(rgba(47, 54, 64,0.30),rgba(47, 54, 64,0.00)),url(../imag/fabian-albert--yePUylDPJQ-unsplash.jpg);
+    display:inline-block,flex;
+    text-align: center;
+    justify-items: center;
+    border-radius: 20px;
+    box-shadow: 50px;
+    width: 90%;
+    height: 1000px;
+    margin-bottom: 10px;
+}
+#ii{
+    font-size:2rem ;
+    color: rgba(248, 239, 186,0.7);
+    display:flex,inline;
+    align-items: center;
+    justify-content: center;
+    margin-left: -385px;
+    margin-top: 200px;
+}
+#pp{
+    font-size:2rem ;
+    color: rgba(248, 239, 186,0.7);
+    display:flex,inline;
+    align-items: center;
+    justify-content: center;
+    margin-left: -385px;
+    margin-top: 50px;
+    
+}
+#oh{
+    border: 2px solid rgba(113, 128, 147,1.0);
+    border-radius: 50px;
+    font-size: 2rem;
+    display:flex,inline;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 30px;
+}
+#ho{
+    border: 2px solid rgba(113, 128, 147,1.0);
+    border-radius: 50px;
+    font-size: 2rem;
+    display:flex,inline;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 30px;
+}
+.login-button{
+    background-color: rgba(248, 239, 186,0.7) ;
+    width: 300px;
+    height: 30px;
+    border: 1px solid, rgba(248, 239, 186,0.7) ;
+    border-radius: 40px;
+    font-size:1.5rem;
+    font-style: italic;
+    display:flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 85px;
+    margin-left: 675px;
+}
+.login-button:hover{
     
 }
