@@ -66,17 +66,29 @@
 .login-button{
     background-color: rgba(248, 239, 186,0.7) ;
     width: 300px;
-    height: 30px;
+    height: 40px;
     border: 1px solid, rgba(248, 239, 186,0.7) ;
-    border-radius: 40px;
-    font-size:1.5rem;
-    font-style: italic;
+    border-radius: 50px;
+    font-size:2rem;
     display:flex;
     align-items: center; 
     justify-content: center; 
     margin-top: 85px;
     margin-left: 675px;
 }
-.login-button:hover{
-    
+.login-button a{
+    text-decoration: none;
+    color:rgba(128, 142, 155,1.0);
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ff{
+    color:rgb(0, 220, 223,0.50);
+    display: flex;
+    align-items:baseline; 
+    justify-content:baseline;
+    font-size: 2rem;
+    margin-left: 75%;
+    margin-top: 95px;
+    text-decoration: none;
 }
