@@ -54,3 +54,32 @@ form{
 .a4:focus{
     outline: none;
 }
+.a5{
+    width: 30vh;
+    font-size: 1.50rem;
+    background-color: unset;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: rgba(87, 101, 116,1.0);
+}
+.a5:hover{
+    background-color: rgba(255, 121, 63,0.6);
+    color:gainsboro ;
+    cursor: pointer;
+    font-weight: 700;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    text-align: left;
+}
+ul li{
+    list-style: none;
+    
+}
+ a{
+text-decoration: none;
+ }
